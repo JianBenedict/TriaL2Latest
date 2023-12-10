@@ -61,7 +61,7 @@ public class CartStock extends AppCompatActivity {
                 String orderTXT = cart_rcv_order.getText().toString();
                 String priceTXT = cart_rcv_price.getText().toString();
 
-                Boolean checkupdatedata = DB.updatestock(idTXT, supplierTXT, prodnameTXT, orderTXT, priceTXT);
+                Boolean checkupdatedata = DB.updatestock(idTXT,     supplierTXT, prodnameTXT, orderTXT, priceTXT);
                 if (checkupdatedata == true)
                     Toast.makeText(CartStock.this, "Entry Updated", Toast.LENGTH_SHORT).show();
                 else

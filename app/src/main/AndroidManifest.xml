@@ -64,6 +64,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".ProductFragment" />
         <activity android:name=".ReceiveItemProfile" />
+        <activity android:name=".TransactionHistory" />
     </application>
 
 </manifest>
